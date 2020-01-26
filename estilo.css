@@ -42,7 +42,7 @@ nav a:hover {
     width: 30%;
     vertical-align:top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 30px 20px 20px;
     box-sizing: border-box;
     border-color: #000000;
     border-width: 2px;
@@ -68,6 +68,11 @@ nav a:hover {
     font-size: 30px;
 }
 
+.produtos li:hover p.produto-desconto {
+    visibility: visible;
+    display: block;
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -84,6 +89,17 @@ nav a:hover {
     margin: 10px 0 0;
 
 }
+
+.produto-desconto {
+visibility: hidden;
+padding: 10px 0 0;
+color: red;
+font-weight: bold;
+display: none;
+
+
+}
+
 footer {
     text-align: center;
     background: url(img/bg.jpg);
