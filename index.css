@@ -4,35 +4,32 @@ header {
 }
 
 .titulo {
-    display: inline-block;
-    float: left;
     margin: -100px 0 0 0;
     padding-left:190px;
+    float: left;
 }
 
-.cabecalho {
-    background: black;
-    padding: 20px;
-
-}
-
-.cabecalho h1 {
-
-    padding-top:;
-}
-
-.cabecalho nav li {
+nav li {
     display: inline;
     text-transform: uppercase;
 }
 
-.cabecalho a {
+a {
     text-decoration: none;
     color: white;
 }
 
-.cabecalho nav { 
+nav { 
     padding-left: 800px;
     font-size:22px;
     font-weight: bold;
+    display: inline;
+}
+
+nav ul {
+    padding-left: 750px;
+}
+
+nav ul li {
+    margin-right: 10px;
 }
