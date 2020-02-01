@@ -8,13 +8,13 @@ header {
     margin: 0 auto;
 }
 
-nav {
+.produtos-nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-nav li {
+.produtos-nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
@@ -102,7 +102,7 @@ display: none;
 
 footer {
     text-align: center;
-    background: url(img/bg.jpg);
+    background: black;
     padding:30px 0;
 }
 
