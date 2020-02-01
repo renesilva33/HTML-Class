@@ -1,0 +1,115 @@
+header {
+    background: black;
+    padding: 110px 0;
+}
+
+.titulo {
+    margin: -100px 0 0 0;
+    padding-left:190px;
+    float: left;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav { 
+    padding-left: 800px;
+    font-size:22px;
+    font-weight: bold;
+    display: inline;
+}
+
+nav ul {
+    padding-left: 750px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+
+}
+
+form {
+    margin: 40px 0;
+    font-size: 20px;
+
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 60%;
+}
+.checkbox {
+    margin: 20px 0 20px ;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background:olive;
+    transform: scale(1.2);
+}
+
+table {
+    margin:50px;
+    width: 30%;
+    text-align: center;
+    float: right;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold ;
+
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    padding:30px 0;
+}
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+}
+
