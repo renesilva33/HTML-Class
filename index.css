@@ -33,3 +33,29 @@ nav ul {
 nav ul li {
     margin-right: 10px;
 }
+
+.main_banner  {
+    padding: 15px;
+       
+}
+
+.h1-main {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.banner {
+    font-size: 25px;
+    float: right;
+    margin: 75px 0 20px 20px;
+    width: 50%;
+    box-shadow: black 11px 9px 11px;
+    
+}
+
+p {
+    margin: 20px; 
+    font-size: 25px;
+    text-align: justify;
+}
+
