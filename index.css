@@ -53,9 +53,21 @@ nav ul li {
     
 }
 
-p {
+.p-sobre {
     margin: 20px; 
     font-size: 25px;
     text-align: justify;
 }
 
+footer {
+    text-align: center;
+    background: black;
+    padding:30px 0;
+}
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+}
